@@ -44,3 +44,6 @@ https://www.youtube.com/watch?v=KuVIsmFDiGk
 --------------------------------------
 برای استفاده از نقشه در ریکت باید از مستندات زیر استفاده شود
 https://help.map.ir/documentation/reactsdk-installation/
+----------------------------------------
+لینک آموزش استفاده از گیت هاب
+https://www.youtube.com/watch?v=iv8rSLsi1xo
