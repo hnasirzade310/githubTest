@@ -1,3 +1,7 @@
 آموزش ایجاد پنل ادمین
 https://www.youtube.com/watch?v=BOF79TAIkYQ&t=3866s
 تا دقیقه 29 دیده و انجام شده
+برای فونت های آیکون
+https://fonts.google.com/icons?icon.query=dash&icon.set=Material+Icons
+برای فونت ها نوشتاری
+https://fonts.google.com/specimen/Poppins?query=poppins
