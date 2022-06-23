@@ -11,15 +11,28 @@ https://www.youtube.com/watch?v=SNyrq_x5llM
 npm install --save react-native-device-info
 و بعد این در پرژه اضافه شود
 
-
 برای تولید کردم خروجی 
 apk
 برای اندروید باید از این ودیو و از لینک استفاده کرد
 https://www.youtube.com/watch?v=cws_eQ5LQUk
 https://reactnative.dev/docs/signed-apk-android.html
-
-
 -----------------------------------------------------------------------
+پروژه   تمرینی که دارم انجام میدم 
+برای منزل
+F:\react-native\Projects\todo2
+پارت 1
+https://www.youtube.com/watch?v=7_nsd_iNDtY
+پارت 2
+https://www.youtube.com/watch?v=GPu1ax1Fga0
+پارت 3
+https://www.youtube.com/watch?v=Z7UjnkbbIqk
+فایل فیکما
+https://www.figma.com/file/gfIboy4J44lvD9CoDr62rH/Food-App?node-id=0%3A1
+آموزش طراحی همان دیزاین در فیگما
+https://www.youtube.com/watch?v=jA-R8bJRZPg&t=1356s
+پروژه کامل در گیت هاب
+https://github.com/mattfrances/FoodAppUI
+-------------------------------------------------------------
 برای رلیز گرفتن از برنامه باید به پوشه
 android
 رفته و این کد را در کامند اجرا کرد
