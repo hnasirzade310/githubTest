@@ -4,19 +4,7 @@ F:\React-Native\Project
 ToDo
 هست که از لینک آموزشی زیر در حال تماشا هستم
 https://www.youtube.com/watch?v=0kL6nhutjQ8
-
-برای بدست آوردن کد منحصر به فرد گوشی باید این آموزش رو ببینی
-https://www.youtube.com/watch?v=SNyrq_x5llM
-این باید در پروژه نصب شود
-npm install --save react-native-device-info
-و بعد این در پرژه اضافه شود
-
-برای تولید کردم خروجی 
-apk
-برای اندروید باید از این ودیو و از لینک استفاده کرد
-https://www.youtube.com/watch?v=cws_eQ5LQUk
-https://reactnative.dev/docs/signed-apk-android.html
------------------------------------------------------------------------
+-------------------------------------------------------------
 پروژه   تمرینی که دارم انجام میدم 
 برای منزل
 F:\react-native\Projects\todo2
@@ -33,6 +21,22 @@ https://www.youtube.com/watch?v=jA-R8bJRZPg&t=1356s
 پروژه کامل در گیت هاب
 https://github.com/mattfrances/FoodAppUI
 -------------------------------------------------------------
+
+برای بدست آوردن کد منحصر به فرد گوشی باید این آموزش رو ببینی
+https://www.youtube.com/watch?v=SNyrq_x5llM
+این باید در پروژه نصب شود
+npm install --save react-native-device-info
+و بعد این در پرژه اضافه شود
+
+
+برای تولید کردم خروجی 
+apk
+برای اندروید باید از این ودیو و از لینک استفاده کرد
+https://www.youtube.com/watch?v=cws_eQ5LQUk
+https://reactnative.dev/docs/signed-apk-android.html
+
+
+-----------------------------------------------------------------------
 برای رلیز گرفتن از برنامه باید به پوشه
 android
 رفته و این کد را در کامند اجرا کرد
@@ -49,17 +53,49 @@ npm install react-navigation react-native-reanimated react-native-gesture-handle
 https://github.com/ptomasroos/react-native-scrollable-tab-view
 مثال ساده از اسکرول ویو
 https://github.com/ptomasroos/react-native-scrollable-tab-view/blob/master/Example/SimpleExample.js
--------------------------------------
-برای فراخوانی 
-api
-از ودیو زیر استفاده می کنیم
-https://www.youtube.com/watch?v=KuVIsmFDiGk
---------------------------------------
-برای استفاده از نقشه در ریکت باید از مستندات زیر استفاده شود
-https://help.map.ir/documentation/reactsdk-installation/
-----------------------------------------
-لینک آموزش استفاده از گیت هاب
-https://www.youtube.com/watch?v=iv8rSLsi1xo
---------------------------------------------------------
-آموزش های خوبی در مورد مک گذاشته
-https://www.youtube.com/c/AnsonAlexander
+------------------------------------------------
+ برای اینکه بخواهیم فونت ها رو در برنامه ریکت داشته باشیم
+باید یک فایل با نلم 
+react-native.config.js
+در روت برنامه ایجاد کنیم و این محتوا را داخلش بریزیم.
+module.exports = {
+  project: {
+    ios: {},
+    android: {}, // grouped into "project"
+  },
+  assets: ['./assets/fonts/'], // stays the same
+};
+و بعد از کامند زیر برای پروژه مورد نظر اجرا شود
+react-native link
+--------------------------------
+لینک ودیو آموزشی برای درست کردن آیکون در 
+ios , android
+https://www.youtube.com/watch?v=303rGAVcCA4
+لینک برای درست انجام دادن برای نمایش فونت آیکون ها
+https://www.npmjs.com/package/react-native-vector-icons
+لینک مرجع آیکون ها
+https://github.com/oblador/react-native-vector-icons
+لینک سایت آیکون ها
+https://oblador.github.io/react-native-vector-icons/
+برای اضافه کردن آیکون ها در ریکت از دستور زیر استفاده می کنیم
+npm install --save react-native-vector-icons
+بعد این رو به صفحه مورد نیاز اضافه می کنیم
+import Icon from 'react-native-vector-icons/Ionicons';
+نوع استفاده برای مثال
+ <Icon name="ios-person" size={30} color="#4F8EF7" />
+و این رو باید قبل از
+Icon.loadFont();
+
+const App= () => {
+صدا کنیم.
+لینک آیکون های مورد نظر
+https://oblador.github.io/react-native-vector-icons/
+----------------------------------------------
+برای نویگیشن بار باید از مستندات این لینک استفاده کنم
+https://reactnavigation.org/docs/getting-started
+اول این کامند رو اجرا کنم
+npm install @react-navigation/native
+و بعدش
+npm install react-native-screens react-native-safe-area-context
+و بعدش
+npm install @react-navigation/native-stack
