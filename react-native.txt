@@ -99,3 +99,18 @@ npm install @react-navigation/native
 npm install react-native-screens react-native-safe-area-context
 و بعدش
 npm install @react-navigation/native-stack
+-------------------------------------------------
+html to pdf
+آموزش تبدیل 
+https://www.youtube.com/watch?v=YrGWWPEYxpg
+لینک صفحه تنظیمات
+https://www.npmjs.com/package/react-native-html-to-pdf
+
+مراحل نصب
+اول:
+npm install react-native-html-to-pdf --save
+دوم :
+react-native link
+
+لینک سورس کد
+https://github.com/vishalpwr/react-native/tree/master/CreatePdf

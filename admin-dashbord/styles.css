@@ -183,7 +183,6 @@ aside .sidebar a {
     position: relative;
     height: 3.7rem;
     transition: all 300ms ease;
-    background-color: rebeccapurple !important;
 }
 
 aside .sidebar a span {
