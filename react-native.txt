@@ -114,3 +114,9 @@ react-native link
 
 لینک سورس کد
 https://github.com/vishalpwr/react-native/tree/master/CreatePdf
+-----------------------------------------------
+برای کارکردن با دیتابیس در ریکت
+باید پیش نیاز های این صفحه رو نصب کنیم.
+https://www.npmjs.com/package/react-native-sqlite-storage
+ابتدا
+  npm install --save react-native-sqlite-storage
