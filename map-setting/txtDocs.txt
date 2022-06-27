@@ -6,3 +6,6 @@ https://account.mapbox.com/access-tokens
 
 
 https://github.com/rnmapbox/maps/blob/main/android/install.md#mapbox-maps-gl-native-sdk-pre-v10
+
+لینک ودیویی آموزشی
+https://www.youtube.com/watch?v=dKhaQScITEw
