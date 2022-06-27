@@ -120,3 +120,5 @@ https://github.com/vishalpwr/react-native/tree/master/CreatePdf
 https://www.npmjs.com/package/react-native-sqlite-storage
 ابتدا
   npm install --save react-native-sqlite-storage
+آموزش ودیو
+https://www.youtube.com/watch?v=GkuPPJ7AOSQ
