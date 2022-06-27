@@ -3,3 +3,6 @@ https://account.mapbox.com/access-tokens
  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
  <uses-feature android:name="android.hardware.location.gps"/>
+
+
+https://github.com/rnmapbox/maps/blob/main/android/install.md#mapbox-maps-gl-native-sdk-pre-v10
